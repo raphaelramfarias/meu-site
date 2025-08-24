@@ -5,35 +5,39 @@
   <title>Raphael Farias - Desenvolvedor Front End</title>
   <meta name="description" content="Curriculum Vitae Raphael Farias.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style_Curriculo.css" />
   <style>
     body { font-family: sans-serif; margin: 2rem; background: #f9f9f9; }
     h1, h2 { color: #333; }
     code, kbd, samp { background: #eee; padding: 0.2em 0.4em; }
-    table, th, td { border: 1px solid #ccc; border-collapse: collapse; padding: 5px; }
+    table, th, td { border: 1px solid #ccc; border-collapse: collapse; .tabela-centralizada { margin-left: auto; margin-right: auto; display: table;
+  }
+ }
     address { font-style: normal; }
     aside { background: #eee; padding: 1em; margin-top: 1em; }
     section { margin-bottom: 2em; }
-    header, footer { background: #ddd; padding: 1em; }
+    header, footer { background: #28efeb; padding: 1em; }
   </style>
 </head>
-<body>
+<body id="conteudo">
 
 <header>
-  <h1>Raphael Farias</h1>
+  <h1>Curriculo Vitae<br></h1>
+  <h2>Raphael Farias</h2>
   <p><strong>Desenvolvedor Front End</strong></p>
   <address>
     <img src="Eu.png" alt="Raphael Farias"><br>
     <a href="mailto:raphaelfarias@hotmail.com">raphaelfarias@hotmail.com</a><br>
-    <a href="tel:+5581999497960">+55 (81) 99949-7960</a>
-  </address>
+    <a href="tel:+5581999497960">+55 (81) 99949-7960</a><br>
+        </address>
 </header>
 
-<nav>
+<nav id="class">
   <ul>
     <li><a href="#about">Sobre</a></li>
     <li><a href="#skills">Competências</a></li>
     <li><a href="#experience">Experiência</a></li>
-    <li><a href="#education">Grau de Formação</a></li>
+    <li><a href="#education">Grau de Formação</a></li></p>
   </ul>
 </nav>
 
@@ -78,7 +82,7 @@
 
   <section id="education">
     <h2>Grau de Formação</h2>
-    <table>
+    <table class="tabela-centralizada">
       <thead>
         <tr><th>Graduação</th><th>Instituição</th><th>Ano</th></tr>
       </thead>
